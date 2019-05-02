@@ -4,14 +4,13 @@
   "description": "Nexter webpage",
   "main": "index.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/vfadeev89/nexter.git"
+    "type": "git",
+    "url": "https://github.com/vfadeev89/nexter.git"
   },
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/main.css -w",
     "devserver": "live-server",
     "dev": "npm-run-all --parallel devserver watch:sass",
-
     "compile:sass": "node-sass sass/main.scss css/main.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/main.comp.css -o css/main.prefix.css",
     "compress:css": "node-sass css/main.prefix.css css/main.css --output-style compressed",
