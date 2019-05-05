@@ -63,21 +63,6 @@ body {
   color: #54483A;
 }
 
-.btn {
-  background-color: #c69963;
-  color: #f9f7f6;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1.6rem;
-  text-transform: uppercase;
-  padding: 1.8rem 3rem;
-  border: none;
-  border-radius: 0;
-  transition: all 0.2s;
-}
-.btn:hover {
-  background-color: #B28451;
-}
-
 .sidebar {
   background-color: #c69963;
   grid-column: sidebar-start/sidebar-end;
@@ -420,6 +405,22 @@ body {
   margin-top: 6rem;
   text-align: center;
   width: 70%;
+}
+
+.btn {
+  background-color: #c69963;
+  color: #f9f7f6;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  border: none;
+  border-radius: 0;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #B28451;
 }
 
 .mb-sm {
