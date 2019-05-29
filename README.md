@@ -3,4 +3,6 @@
 
 Проект выполнен c использованием CSS Grid System
 
+https://vfadeev89.github.io/nexter/index.html
+
 ![](https://www.gabrielefazio.com/img/screenshots/nexter-devices.jpg)
